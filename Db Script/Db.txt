@@ -1,0 +1,208 @@
+Railway => Database Name
+
+
+Collections:
+=============
+
+              Admin
+	     ========
+
+1) TrainClassFares =>
+	
+	firstClassACFare 
+	twoTierAcFare 
+	threeTierAcFare
+	sleeperFare
+	
+
+2) Train Details => 
+	
+	trainNo 
+	trainName 
+	startStation (source)
+	destStation 
+	arrivalTime 
+	deptTime (Departure) 
+	duration 
+	noOfSeats 
+	"(pojo class)
+
+
+
+
+		User
+	       =======
+
+1)Payment Details => 
+
+	cardNo
+	pnrNo
+	cvv
+	bankName
+	classType
+
+2) TrainClassFares =>
+	
+	firstClassACFare
+	twoTierAcFare
+	threeTierAcFare
+	sleeperFare
+	
+
+3) Train Details => 
+	
+	trainNo
+	trainName
+	startStation (source)
+	destStation
+	arrivalTime
+	deptTime (Departure)
+	duration
+	noOfSeats
+	trainClassFares (pojo class)
+
+
+
+		Payment
+	       ==========
+
+
+1)////////// DatabaseSequence =>  
+
+	id
+	seq	
+
+2) Passengers =>
+
+	adults
+	children
+
+3)Payment Details => 
+
+	cardNo
+	pnrNo
+	cvv
+	bankName
+	classType
+
+4) UserDetails =>
+
+	id
+	pnrNo
+	name
+	age
+	sex
+	address
+	trainNo
+	trainName
+	startStation
+	destStation
+	classType
+	passengers
+	payment
+
+
+
+		Ticket Booking
+		==============
+
+
+1) AuthenticationRequest =>
+
+	username
+	password
+
+2) AuthenticationResponse =>
+
+	jwt
+
+3) //////// DatabaseSequence =>
+
+	id
+	seq	
+
+4) Passengers =>
+
+	adults
+	children
+
+5) TrainClassFares =>
+	
+	firstClassACFare
+	twoTierAcFare
+	threeTierAcFare
+	sleeperFare
+	
+
+6) Train Details => 
+	
+	trainNo
+	trainName
+	startStation (source)
+	destStation
+	arrivalTime
+	deptTime (Departure)
+	duration
+	noOfSeats
+	trainClassFares (pojo class)
+
+7) UserDetails =>
+
+	id
+	pnrNo
+	name
+	age
+	sex
+	address
+	trainNo
+	trainName
+	startStation
+	destStation
+	classType
+	passengers
+	payment
+
+
+
+
+	
+	
+	
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+
+
+
+
+
+	
+	

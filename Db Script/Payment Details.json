@@ -1,0 +1,6 @@
+{"_id":{"$oid":"60bd065f3cfc51291053dcf0"},"cardNo":987654321,"pnrNo":789456123,"cvv":710,"bankName":"Bank of Baroda","classType":"1A"}
+{"_id":{"$oid":"60bd065f3cfc51291053dcf1"},"cardNo":987654321,"pnrNo":456789123,"cvv":123,"bankName":"SBI","classType":"1A"}
+{"_id":{"$oid":"60bd065f3cfc51291053dcf2"},"cardNo":987654321,"pnrNo":123456789,"cvv":546,"bankName":"CUB","classType":"1A"}
+{"_id":{"$oid":"60bd065f3cfc51291053dcf3"},"cardNo":987654321,"pnrNo":951753284,"cvv":879,"bankName":"Indian Bank","classType":"1A"}
+{"_id":{"$oid":"60bd065f3cfc51291053dcf4"},"cardNo":987654321,"pnrNo":897123456,"cvv":321,"bankName":"Hdfc","classType":"1A"}
+{"_id":{"$oid":"60bd065f3cfc51291053dcf5"},"cardNo":987654321,"pnrNo":528693147,"cvv":895,"bankName":"ICICI","classType":"1A"}
